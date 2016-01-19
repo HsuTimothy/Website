@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" contents="My projects.">
+		<title>Projects | Timothy Hsu</title>
+		<link rel="stylesheet" href="_css/styles.css">
+		<script src="_scripts/tabs.js"></script>
+		<style>
+			.bottom {
+				font-family: Gotham Light, "Arial";
+				position: fixed;
+				bottom: 5px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Projects</h1>
+		<p><a href="index.html" title="Home"><b>Home</b></a></p>
+		<aisde role="complemntary" class="projects">
+		<div id="tabContainers">
+			<div id="tabs">
+				<ul>
+					<li id="tab1"><a href="#tabPanel1">Gitlet</a></li>
+					<li id="tab2"><a href="#tabPanel2">Lines of Action</a></li>
+					<li id="tab3"><a href="#tabPanel3">DB61B</a></li>
+				</ul>
+			</div>
+			<div id="containers">
+				<div id="tabPanel1">
+					<p>My implementation of a version-control system. This version-control system mimics some of the basic features of the popular version-control system git, but it is smaller and simpler, so it's named gitlet.</p>
+
+					<p>A version-control system is essentially a backup system for files on your computer. The main functionality that gitlet supports is:
+					Saving backups of directories of files. In gitlet, this is called committing, and the backups themselves are called commits. Restoring a backup version of one or more files or entire commits. In gitlet, this is called checking out those files or that commit. Viewing the history of your backups. In gitlet, you view this history in something called the log. Maintaining related sequences of commits, called branches. Merging changes made in one branch into another.</p>
+
+					<p>Many common Git commands have been implemented but it does not reflect Git's remote capabilities. Working commands include: add, rm, commit, branch, merge, status, log, global log, checkout</p>
+					<img src="images/gitlet.png" alt="Gitlet" style="width:463.45px;height:250.25px;">
+					<a href="https://github.com/HsuTimothy/Gitlet/tree/master" target="_blank">
+						<img class="imgLink" src="images/github.png" alt="Code" title="Code" style="width:281.25px;height:104.25px;">
+					</a>
+				</div>
+				<div id="tabPanel2">
+					<p>A fun game I implemented that allows users to play a game of Lines of Action. Users can play with another player or against an AI in the terminal. Additionally, users can also play 2 player mode with a GUI.</p>
+					<img src="images/LOA.png" alt="Lines of Action" style="width:390px;height:353.5px;">
+					<a href="https://github.com/HsuTimothy/Lines-of-Action" target="_blank">
+						<img class="imgLink" src="images/github.png" alt="Code" title="Code" style="width:281.25px;height:104.25px;">
+					</a>
+				</div>
+				<div id="tabPanel3">
+					<p>In this project, I implemented a miniature relational database management system (DBMS) that stores tables of data, where a table consists of some number of labeled columns of information.</p>
+					<img src="images/DB61B.png" alt="DB61B" style="width:406.9px;height:330.2px;">
+					<a href="https://github.com/HsuTimothy/DB61B" target="_blank">
+						<img class="imgLink" src="images/github.png" alt="Code" title="Code" style="width:281.25px;height:104.25px;">
+					</a>
+				</div>
+			</div>
+		</div>
+		</aside>
+	</body>
+	<footer class="bottom">Contact me at:<br>timothyhsu001@gmail.com</footer>
+</html>
