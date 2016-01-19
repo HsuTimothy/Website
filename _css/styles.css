@@ -1,0 +1,121 @@
+			html {
+				background-color: #f2f2f2;
+			}
+			img {
+				padding-right: 57px;
+			}
+			body {
+				padding-left: 0px;
+				padding-right: 15px;
+			}
+			.left {
+				position: asbolute;
+				right: 0px;
+			}
+			h1 {
+				font-family: Gotham Bold, "Arial";
+				font-weight: bold;
+				font-size: 2em;
+			}
+			.Name{
+				padding-top: 110px;
+				padding-bottom: 0px;
+				margin:0;
+				font-size: 3em;
+			}
+			.hello {
+				font-weight: normal;
+				font-family: Gotham Light, "Arial";
+			}
+			p {
+				font-family: Gotham Light, "Arial";
+				text-align: justify;
+				margin: 1em 0 .4em;
+				margin-bottom: 1em;
+			}
+			.bottom {
+				font-family: Gotham Light, "Arial";
+				position: relative;
+				bottom: 6px;
+				float:right;
+			}
+			.Name + .school {
+				margin-top: -8px;
+			}
+			.school {
+				padding-left: 21.7cm;
+			}
+			#tabs > ul > .active {
+				background: white;
+				cursor:pointer;
+			}
+			#tabs > ul > li:hover{
+				background: white; 
+				cursor:pointer;
+			}
+			.imgLink {
+				opacity: 0.4;
+			}
+			.imgLink:hover{
+				opacity: 1.0;
+			}
+			#tabs > ul > li{
+				margin:0 2px 0 0;
+				padding:7px 10px;
+				display:block;
+				float:left;
+				color:#FFF;
+				border-top-left-radius:4px;
+				border-top-right-radius: 4px;
+				background: #CCC;
+			}
+			#containers div {
+				background: white;
+				padding: 10px 10px 25px;
+				margin: 0cm;
+				color: #333;
+			}
+			#tabs a {
+				text-decoration: none;
+				font-family: Gotham Light, "Arial";
+				font-weight: bold;
+				color: black;
+			}
+			#tabContainer h4 {
+				color: rgb(83, 104, 138);
+				font-size: 2em;
+			}
+
+			#tabs{
+				height:30px;
+				overflow:hidden;
+			}
+
+			#tabs > ul{
+				font: 1em;
+				list-style:none;
+			}
+			#tabs ul, #tabs li {
+				margin:0;
+				padding:0;
+			}
+			aside.languages {
+				font: .8em "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+				background:#2e2e2e;
+				padding: 25px;
+				padding-top: 1em;
+				float: right;
+				width: 500px;
+				margin-left: 1em;
+			}
+			.flowRight {
+				float: right;
+				margin-left: 10px;
+			}
+			.flowLeft {
+				float: left;
+				margin-right: 10px;
+			}
+			#containers p {
+
+			}
