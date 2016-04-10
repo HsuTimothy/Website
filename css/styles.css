@@ -18,10 +18,13 @@
 				font-size: 2em;
 			}
 			.Name{
-				padding-top: 110px;
+				padding-top: 40px;
 				padding-bottom: 0px;
 				margin:0;
 				font-size: 3em;
+			}
+			#projects_body{
+				margin-left: 60px;
 			}
 			.hello {
 				font-weight: normal;
@@ -39,11 +42,17 @@
 				bottom: 6px;
 				float:right;
 			}
+			.bottom2 {
+				font-family: Gotham Light, "Arial";
+				position: relative;
+				left: 1000px;
+				bottom: 6px;
+			}
 			.Name + .school {
 				margin-top: -8px;
 			}
 			.school {
-				padding-left: 21.7cm;
+				padding-left: 20cm;
 			}
 			#tabs > ul > .active {
 				background: white;
