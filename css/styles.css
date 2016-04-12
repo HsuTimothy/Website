@@ -1,3 +1,11 @@
+@font-face {
+	font-family: 'Gotham Light';
+	src: url('text/GOTHAM-LIGHT.TTF');
+}
+@font-face {
+	font-family: 'Gotham Bold';
+	src: url('text/GOTHAM-BOLD.TTF');
+}
 			html {
 				background-color: #f2f2f2;
 			}
