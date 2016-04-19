@@ -1,0 +1,119 @@
+.snip1252 {
+  color: #fff;
+  position: relative;
+  float: left;
+  margin: 10px 1%;
+  min-width: 310px -60px;
+  max-width: 310px;
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  background-color: #000000;
+  font-size: 16px;
+}
+.snip1252 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.snip1252 img {
+  max-width: 100%;
+  vertical-align: top;
+}
+.snip1252 i {
+  position: absolute;
+  bottom: 0px;
+  right: 15px;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  font-size: 3em;
+  line-height: 1em;
+  opacity: 0;
+  -webkit-transition: all 0.4s cubic-bezier(0.6, -0.8, 0.735, 0.045);
+  transition: all 0.4s cubic-bezier(0.6, -0.8, 0.735, 0.045);
+}
+.snip1252 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  display: block;
+}
+.snip1252 a:before,
+.snip1252 a:after {
+  width: 1px;
+  height: 0;
+  background-color: #ffffff;
+}
+.snip1252 a:before {
+  right: 0;
+  top: 0;
+}
+.snip1252 a:after {
+  left: 0;
+  bottom: 0;
+}
+.snip1252:before,
+.snip1252:after,
+.snip1252 a:before,
+.snip1252 a:after {
+  position: absolute;
+  content: '';
+  background-color: #ffffff;
+  z-index: 1;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+  opacity: 0.8;
+}
+.snip1252:before,
+.snip1252:after {
+  height: 1px;
+  width: 0%;
+}
+.snip1252:before {
+  top: 0;
+  left: 0;
+}
+.snip1252:after {
+  bottom: 0;
+  right: 0;
+}
+.snip1252:hover img,
+.snip1252.hover img {
+  opacity: 0.25;
+}
+.snip1252:hover a:before,
+.snip1252.hover a:before,
+.snip1252:hover a:after,
+.snip1252.hover a:after {
+  height: 100%;
+}
+.snip1252:hover i,
+.snip1252.hover i {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  opacity: 0.7;
+}
+.snip1252:hover:before,
+.snip1252.hover:before,
+.snip1252:hover:after,
+.snip1252.hover:after {
+  width: 100%;
+}
+.snip1252:hover:before,
+.snip1252.hover:before,
+.snip1252:hover:after,
+.snip1252.hover:after,
+.snip1252:hover a:before,
+.snip1252.hover a:before,
+.snip1252:hover a:after,
+.snip1252.hover a:after {
+  opacity: 0.1;
+}
+
+body {
+  margin-left: 170px;
+}
